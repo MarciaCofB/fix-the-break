@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Wrangler local state (local D1 database, cache) and secrets
+.wrangler/
+.dev.vars
+
+# Claude Code personal settings (local permissions)
+.claude/settings.local.json
+
+# Test coverage
+coverage/
+
+# Logs
+*.log
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/

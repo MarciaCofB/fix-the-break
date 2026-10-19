@@ -1,0 +1,5 @@
+# Cloudflare Pages configuration, used by `npm run dev` and by deploys.
+name = "fix-the-break"
+pages_build_output_dir = "./public"
+# Pins the Workers runtime behaviour so local and production match.
+compatibility_date = "2026-10-19"

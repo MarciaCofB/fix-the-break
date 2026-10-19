@@ -1,0 +1,23 @@
+{
+  "name": "fix-the-break",
+  "version": "0.1.0",
+  "description": "A micro-learning app on what to do when an integration breaks.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarciaCofB/fix-the-break.git"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "wrangler pages dev public",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vitest": "^5.0.5",
+    "wrangler": "^4.151.2"
+  }
+}
